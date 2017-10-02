@@ -1672,6 +1672,331 @@ void Holes()
 
 
 }
+
+void Windows()
+{
+    ////brown
+    //1
+    glBegin(GL_POLYGON);
+
+    glColor3ub(135,125,107);
+
+    glVertex2d(191,274);
+    glVertex2d(191,214);
+    glVertex2d(230,236);
+    glVertex2d(230,297);
+
+    glEnd();
+
+    //2
+    glBegin(GL_POLYGON);
+
+    glVertex2d(249,308);
+    glVertex2d(249,247);
+    glVertex2d(288,270);
+    glVertex2d(288,330);
+
+    glEnd();
+
+    //3
+    glBegin(GL_POLYGON);
+
+    glVertex2d(307,342);
+    glVertex2d(307,281);
+    glVertex2d(346,304);
+    glVertex2d(346,364);
+
+    glEnd();
+
+    //4
+    glBegin(GL_POLYGON);
+
+    glVertex2d(397,364);
+    glVertex2d(397,304);
+    glVertex2d(436,281);
+    glVertex2d(436,342);
+
+    glEnd();
+
+    //5
+    glBegin(GL_POLYGON);
+
+    glVertex2d(397,485);
+    glVertex2d(397,425);
+    glVertex2d(436,402);
+    glVertex2d(436,462);
+
+    glEnd();
+
+    ////blue holes
+    //1
+    glBegin(GL_POLYGON);
+
+    glColor3ub(84,107,130);
+
+    glVertex2d(204,274);
+    glVertex2d(204,259);
+    glVertex2d(223,270);
+    glVertex2d(223,285);
+
+    glEnd();
+
+    //2
+    glBegin(GL_POLYGON);
+
+    glVertex2d(262,308);
+    glVertex2d(262,293);
+    glVertex2d(281,304);
+    glVertex2d(281,319);
+
+    glEnd();
+
+    //3
+    glBegin(GL_POLYGON);
+
+    glVertex2d(320,342);
+    glVertex2d(320,327);
+    glVertex2d(339,338);
+    glVertex2d(339,353);
+
+    glEnd();
+
+    //4
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,353);
+    glVertex2d(403,338);
+    glVertex2d(423,327);
+    glVertex2d(423,342);
+
+    glEnd();
+
+    //5
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,474);
+    glVertex2d(403,459);
+    glVertex2d(423,447);
+    glVertex2d(423,462);
+
+    glEnd();
+
+    ////blue glass
+    //1
+    glBegin(GL_POLYGON);
+
+    glColor3ub(135,209,212);
+
+    glVertex2d(198,236);
+    glVertex2d(198,225);
+    glVertex2d(223,240);
+    glVertex2d(223,251);
+
+    glEnd();
+
+    //2
+    glBegin(GL_POLYGON);
+
+    glVertex2d(256,270);
+    glVertex2d(256,259);
+    glVertex2d(281,274);
+    glVertex2d(281,285);
+
+    glEnd();
+
+    //3
+    glBegin(GL_POLYGON);
+
+    glVertex2d(313,304);
+    glVertex2d(313,293);
+    glVertex2d(339,308);
+    glVertex2d(339,319);
+
+    glEnd();
+
+    //4
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,319);
+    glVertex2d(403,308);
+    glVertex2d(429,293);
+    glVertex2d(429,304);
+
+    glEnd();
+
+    //5
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,440);
+    glVertex2d(403,428);
+    glVertex2d(429,413);
+    glVertex2d(429,425);
+
+    glEnd();
+
+    ////young blue glass
+    //1
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,252,255);
+
+    glVertex2d(198,248);
+    glVertex2d(198,236);
+    glVertex2d(223,251);
+    glVertex2d(223,263);
+
+    glEnd();
+
+    //2
+    glBegin(GL_POLYGON);
+
+    glVertex2d(256,281);
+    glVertex2d(256,270);
+    glVertex2d(281,285);
+    glVertex2d(281,296);
+
+    glEnd();
+
+    //3
+    glBegin(GL_POLYGON);
+
+    glVertex2d(313,315);
+    glVertex2d(313,304);
+    glVertex2d(339,319);
+    glVertex2d(339,330);
+
+    glEnd();
+
+    //4
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,330);
+    glVertex2d(403,319);
+    glVertex2d(429,304);
+    glVertex2d(429,315);
+
+    glEnd();
+
+    //5
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,451);
+    glVertex2d(403,439);
+    glVertex2d(429,424);
+    glVertex2d(429,436);
+
+    glEnd();
+
+    ////light
+    //1
+    glBegin(GL_POLYGON);
+
+    glColor3ub(250,242,227);
+
+    glVertex2d(185,278);
+    glVertex2d(191,274);
+    glVertex2d(223,293);
+    glVertex2d(230,297);
+    glVertex2d(223,300);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(198,278);
+    glVertex2d(204,274);
+    glVertex2d(223,285);
+    glVertex2d(223,293);
+
+    glEnd();
+
+    //2
+    glBegin(GL_POLYGON);
+
+    glVertex2d(243,312);
+    glVertex2d(249,308);
+    glVertex2d(281,327);
+    glVertex2d(288,330);
+    glVertex2d(281,334);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(256,312);
+    glVertex2d(262,308);
+    glVertex2d(281,319);
+    glVertex2d(281,327);
+
+    glEnd();
+
+    //3
+    glBegin(GL_POLYGON);
+
+    glVertex2d(301,346);
+    glVertex2d(307,342);
+    glVertex2d(339,361);
+    glVertex2d(346,364);
+    glVertex2d(339,368);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(313,346);
+    glVertex2d(320,342);
+    glVertex2d(339,353);
+    glVertex2d(339,361);
+
+    glEnd();
+
+    //4
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,368);
+    glVertex2d(397,364);
+    glVertex2d(429,346);
+    glVertex2d(436,342);
+    glVertex2d(442,346);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,361);
+    glVertex2d(403,353);
+    glVertex2d(423,342);
+    glVertex2d(429,346);
+
+    glEnd();
+
+    //5
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,489);
+    glVertex2d(397,485);
+    glVertex2d(429,466);
+    glVertex2d(436,462);
+    glVertex2d(442,466);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(403,481);
+    glVertex2d(403,474);
+    glVertex2d(423,462);
+    glVertex2d(429,466);
+
+    glEnd();
+
+    ////dark top
+
+    ////dark bottom
+
+    ////dark right
+}
+
 /////////////////////////////////////////////////
 
 
@@ -1709,6 +2034,7 @@ int main(void)
         Stairs();
         Balcony();
         Holes();
+        Windows();
         Tree();
         ////////////////////////////////////////////////////////////
 
