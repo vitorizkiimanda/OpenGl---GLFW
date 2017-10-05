@@ -47,11 +47,6 @@ void setup_viewport(GLFWwindow* window)
     glVertex2f(-0.5f, 0.5f);
     glEnd();
 }*/
-void display()  {
-    glClear(GL_COLOR_BUFFER_BIT);
-
-    glFlush();
-}
 
 
 //////////////////////////////FUNGSI BUAT SENDIRI
@@ -202,6 +197,7 @@ void hurufV(){
     glBegin(GL_POLYGON);
 
     glColor3ub(247,191,18);
+    //glColor4f(1,1,1,0);
 
     glVertex2d(104,114);
     glVertex2d(142,114);
@@ -501,23 +497,327 @@ void hurufT(){
 
 void hurufO(){
     //BIG Green
-    glBegin(GL_LINE_STRIP);
+    glBegin(GL_TRIANGLE_STRIP);
 
     glColor3ub(29,205,195);
 
     glVertex2d(420,589);
-    glVertex2d(426,486);
-    glVertex2d(452,452);
+    glVertex2d(417,578);
+    glVertex2d(553,415);
+    glVertex2d(419,584);
+    glVertex2d(553,415);
+    glVertex2d(416,574);
+    glVertex2d(553,415);
+    glVertex2d(414,562);
+    glVertex2d(553,415);
+    glVertex2d(413,548);
+    glVertex2d(553,415);
+    glVertex2d(413,541);
+    glVertex2d(553,415);
+    glVertex2d(413,532);
+    glVertex2d(553,415);
+    glVertex2d(414,524);
+    glVertex2d(553,415);
+    glVertex2d(415,517);
+    glVertex2d(553,415);
+    glVertex2d(417,509);
+    glVertex2d(553,415);
+    glVertex2d(419,501);
+    glVertex2d(553,415);
+    glVertex2d(422,495);
     glVertex2d(553,415);
 
+    glVertex2d(426,486);
+    glVertex2d(553,415);
+
+    glVertex2d(452,452);
+    glVertex2d(553,415);
+    glVertex2d(456,448);
+    glVertex2d(553,415);
+    glVertex2d(461,444);
+    glVertex2d(553,415);
+    glVertex2d(467,440);
+    glVertex2d(553,415);
+    glVertex2d(473,436);
+    glVertex2d(553,415);
+    glVertex2d(481,432);
+    glVertex2d(553,415);
+    glVertex2d(488,428);
+    glVertex2d(553,415);
+    glVertex2d(496,425);
+    glVertex2d(553,415);
+    glVertex2d(504,422);
+    glVertex2d(553,415);
+    glVertex2d(512,419);
+    glVertex2d(553,415);
+    glVertex2d(521,417);
+    glVertex2d(553,415);
+    glVertex2d(528,416);
+    glVertex2d(553,415);
+    glVertex2d(534,416);
+    glVertex2d(553,415);
+    glVertex2d(539,415);
+    glVertex2d(553,415);
+    glVertex2d(543,415);
+    glVertex2d(553,415);
+    glVertex2d(548,415);
+    glVertex2d(553,415);
+    glVertex2d(553,415);
+    glVertex2d(553,415);
+
+    glEnd();
+
+    //strip Green young 1
+    glBegin(GL_TRIANGLE_STRIP);
+
+    glColor3ub(0,166,166);
+
+    glVertex2d(426,602);
+    glVertex2d(422,592);
+    glVertex2d(479,532);
+    glVertex2d(426,602);
+    glVertex2d(480,529);
+    glVertex2d(426,602);
+    glVertex2d(481,526);
+    glVertex2d(426,602);
+    glVertex2d(482,521);
+    glVertex2d(426,602);
+    glVertex2d(484,518);
+    glVertex2d(426,602);
+    glVertex2d(486,514);
+    glVertex2d(426,602);
+    glVertex2d(488,510);
+    glVertex2d(426,602);
+    glVertex2d(490,507);
+    glVertex2d(426,602);
+    glVertex2d(493,503);
+    glVertex2d(490,502);
+    glVertex2d(426,602);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(426,602);
+    glVertex2d(422,592);
+    glVertex2d(490,502);
+
+    glEnd();
+
+    glBegin(GL_TRIANGLE_STRIP);
+
+    glVertex2d(493,503);
+    glVertex2d(490,502);
+    glVertex2d(495,500);
+    glVertex2d(518,465);
+    glVertex2d(498,497);
+    glVertex2d(518,465);
+    glVertex2d(501,495);
+    glVertex2d(518,465);
+    glVertex2d(504,492);
+    glVertex2d(518,465);
+    glVertex2d(507,490);
+    glVertex2d(518,465);
+    glVertex2d(510,487);
+    glVertex2d(518,465);
+    glVertex2d(513,486);
+    glVertex2d(518,465);
+    glVertex2d(516,484);
+    glVertex2d(518,465);
+    glVertex2d(567,416);
+    glVertex2d(518,465);
+    glVertex2d(556,415);
+
+    glEnd();
+
+    //stripe green old 1 bottom
+    glBegin(GL_TRIANGLE_STRIP);
+
+    glColor3ub(4,66,87);
+
+    glVertex2d(442,601);
+    glVertex2d(437,592);
+    glVertex2d(489,539);
+    glVertex2d(489,524);
+
+
+    glEnd();
+    //top
+    glBegin(GL_POLYGON);
+
+    glVertex2d(530,469);
+    glVertex2d(580,404);
+    glVertex2d(590,406);
+    glVertex2d(546,465);
+
+    glEnd();
+
+    //stripes green old 2 bottom
+    glBegin(GL_POLYGON);
+
+    glVertex2d(439,625);
+    glVertex2d(433,616);
+    glVertex2d(480,555);
+    glVertex2d(483,567);
+
+    glEnd();
+
+    //top
+    glBegin(GL_POLYGON);
+
+    glVertex2d(540,477);
+    glVertex2d(584,419);
+    glVertex2d(593,422);
+    glVertex2d(552,477);
+
+    glEnd();
+
+    //stripe orange bottom
+    glBegin(GL_POLYGON);
+
+    glColor3ub(242,49,6);
+
+    glVertex2d(447,634);
+    glVertex2d(441,627);
+    glVertex2d(484,570);
+    glVertex2d(489,579);
+
+    glEnd();
+
+    //top
+    glBegin(GL_POLYGON);
+
+    glVertex2d(555,477);
+    glVertex2d(596,423);
+    glVertex2d(605,427);
+    glVertex2d(565,479);
+
+    glEnd();
+
+    //red BIG
+    glBegin(GL_TRIANGLE_STRIP);
+
+    glColor3ub(196,1,41);
+
+    glVertex2d(449,636);
+    glVertex2d(490,582);
+    glVertex2d(500,630);
+    glVertex2d(449,636);
+    glVertex2d(500,630);
+    glVertex2d(450,637);
+    glVertex2d(500,630);
+    glVertex2d(452,639);
+    glVertex2d(500,630);
+    glVertex2d(453,640);
+    glVertex2d(500,630);
+    glVertex2d(455,642);
+    glVertex2d(500,630);
+    glVertex2d(457,643);
+    glVertex2d(500,630);
+    glVertex2d(459,645);
+    glVertex2d(500,630);
+    glVertex2d(461,647);
+    glVertex2d(500,630);
+    glVertex2d(463,649);
+    glVertex2d(500,630);
+    glVertex2d(465,650);
+    glVertex2d(500,630);
+    glVertex2d(467,652);
+    glVertex2d(500,630);
+    glVertex2d(470,653);
+    glVertex2d(500,630);
+    glVertex2d(472,655);
+    glVertex2d(500,630);
+    glVertex2d(474,656);
+    glVertex2d(500,630);
+    glVertex2d(477,658);
+    glVertex2d(500,630);
+    glVertex2d(479,659);
+    glVertex2d(500,630);
+    glVertex2d(482,660);
+    glVertex2d(500,630);
+    glVertex2d(484,662);
+    glVertex2d(500,630);
+    glVertex2d(487,663);
+    glVertex2d(500,630);
+    glVertex2d(490,664);
+    glVertex2d(500,630);
+    glVertex2d(493,665);
+    glVertex2d(500,630);
+    glVertex2d(496,666);
+    glVertex2d(500,630);
+    glVertex2d(499,668);
+    glVertex2d(500,630);
+    glVertex2d(502,669);
+    glVertex2d(500,630);
+    glVertex2d(505,670);
+    glVertex2d(500,630);
+    glVertex2d(508,670);
+    glVertex2d(500,630);
+    glVertex2d(511,671);
+    glVertex2d(500,630);
+    glVertex2d(514,672);
+    glVertex2d(500,630);
+    glVertex2d(517,673);
+    glVertex2d(500,630);
+    glVertex2d(520,673);
+
+    glVertex2d(520,673);
+    glVertex2d(500,630);
+    glVertex2d(568,611);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glVertex2d(500,630);
+    glVertex2d(492,585);
+    glVertex2d(490,582);
 
 
     glEnd();
 
+    glBegin(GL_TRIANGLE_STRIP);
+
+    glVertex2d(490,582);
+    glVertex2d(500,630);
+    glVertex2d(500,630);
+    glVertex2d(492,585);
+    glVertex2d(500,630);
+    glVertex2d(495,588);
+    glVertex2d(500,630);
+    glVertex2d(497,592);
+    glVertex2d(500,630);
+    glVertex2d(500,595);
+    glVertex2d(500,630);
+    glVertex2d(505,599);
+    glVertex2d(500,630);
+    glVertex2d(509,602);
+
+    glEnd();
+
+
 }
 
 /////////////////////////////////////////////////
+void display()  {
+    glClear(GL_COLOR_BUFFER_BIT);
 
+    ////////////////////////////////////////////////////////////
+        //grid();
+
+        background();
+
+        hurufV();
+        hurufI();
+        hurufT();
+        hurufO();
+
+
+        ////////////////////////////////////////////////////////////
+
+    glFlush();
+}
 
 int main(void)
 {
@@ -541,19 +841,6 @@ int main(void)
         setup_viewport(window);
 
         display();
-
-        ////////////////////////////////////////////////////////////
-        //grid();
-
-        background();
-
-        hurufV();
-        hurufI();
-        hurufT();
-        hurufO();
-
-
-        ////////////////////////////////////////////////////////////
 
         glfwSwapBuffers(window);
         glfwPollEvents();
