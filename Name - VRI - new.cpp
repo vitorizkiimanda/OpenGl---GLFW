@@ -3,6 +3,9 @@
 #include <stdio.h>
 #include <math.h>
 
+float DETIK = 0.0;
+float DETIK2 = 0.0;
+
 //ini buat menerima input dari user dan apa yang harus dilakukan
 // esc -> exit
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
@@ -103,7 +106,7 @@ void background(){
     //main BG
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,251,244);
+    glColor3ub(100+255*DETIK2,50+251*DETIK2,10+244*DETIK2);
 
     glVertex2d(0,0);
     glVertex2d(800,0);
@@ -1236,6 +1239,7 @@ void display()  {
 
         background();
 
+
         hurufV();
         hurufI();
         hurufT();
@@ -1264,8 +1268,23 @@ int main(void)
     glfwSwapInterval(1);
     glfwSetKeyCallback(window, key_callback);
 
+    /*
+    //anti alias
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_LINE_SMOOTH);
+    glEnable(GL_POLYGON_SMOOTH);
+    glEnable(GL_POINT_SMOOTH);
+    //anti alias
+    */
     while (!glfwWindowShouldClose(window))//kecepatan FPS dari while ini tergantung komputer masing masing
     {
+
+        //ambil waktu
+        DETIK = glfwGetTime();
+        DETIK2 = sin(DETIK);
+        //ambil waktu
+
         setup_viewport(window);
 
         display();

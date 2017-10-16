@@ -47,12 +47,6 @@ void setup_viewport(GLFWwindow* window)
     glVertex2f(-0.5f, 0.5f);
     glEnd();
 }*/
-void display()  {
-    glClear(GL_COLOR_BUFFER_BIT);
-
-    glFlush();
-}
-
 
 //////////////////////////////FUNGSI BUAT SENDIRI
 void Background(){
@@ -2153,7 +2147,280 @@ void Windows()
 
 }
 
+
+void Chairs()
+{
+
+
+    //////Bottom
+    //top
+    glBegin(GL_POLYGON);
+
+    glColor3ub(255,255,255);
+
+    glVertex2d(286,551);
+    glVertex2d(246,528);
+    glVertex2d(262,519);
+    glVertex2d(302,542);
+
+    glEnd();
+
+    //side Left
+    glBegin(GL_POLYGON);
+
+    glColor3ub(227,219,207);
+
+    glVertex2d(286,556);
+    glVertex2d(246,532);
+    glVertex2d(246,528);
+    glVertex2d(286,551);
+
+    glEnd();
+
+    //side right
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(286,556);
+    glVertex2d(286,551);
+    glVertex2d(302,542);
+    glVertex2d(302,546);
+
+    glEnd();
+
+    //leg left
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(248,533);
+    glVertex2d(248,545);
+    glVertex2d(249,546);
+    glVertex2d(250,547);
+    glVertex2d(251,545);
+    glVertex2d(251,535);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(249,546);
+    glVertex2d(249,534);
+    glVertex2d(250,534);
+    glVertex2d(250,547);
+
+    glEnd();
+
+    //leg middle
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(284,555);
+    glVertex2d(284,567);
+    glVertex2d(285,568);
+    glVertex2d(286,568);
+    glVertex2d(288,567);
+    glVertex2d(288,555);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(285,568);
+    glVertex2d(285,555);
+    glVertex2d(286,555);
+    glVertex2d(286,568);
+
+    glEnd();
+
+    //leg right
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(298,549);
+    glVertex2d(298,559);
+    glVertex2d(298,560);
+    glVertex2d(300,560);
+    glVertex2d(301,559);
+    glVertex2d(301,547);
+
+    glEnd();
+
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(298,560);
+    glVertex2d(298,549);
+    glVertex2d(300,548);
+    glVertex2d(300,560);
+
+    glEnd();
+
+
+    int addX=0;
+    int addY=0;
+
+    for(int i=0;i<2;i++)
+    {
+
+        ////legs middle
+    //dark
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(313+addX,174+addY);
+    glVertex2d(313+addX,161+addY);
+    glVertex2d(316+addX,161+addY);
+    glVertex2d(316+addX,174+addY);
+    glVertex2d(315+addX,167+addY);
+    glVertex2d(313+addX,175+addY);
+
+    glEnd();
+
+    //light
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(313+addX,175+addY);
+    glVertex2d(313+addX,161+addY);
+    glVertex2d(315+addX,162+addY);
+    glVertex2d(315+addX,175+addY);
+
+    glEnd();
+
+    ////legs right
+    //dark
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(327+addX,165+addY);
+    glVertex2d(327+addX,155+addY);
+    glVertex2d(330+addX,153+addY);
+    glVertex2d(330+addX,165+addY);
+    glVertex2d(329+addX,167+addY);
+    glVertex2d(327+addX,166+addY);
+
+    glEnd();
+
+    //light
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(327+addX,166+addY);
+    glVertex2d(327+addX,155+addY);
+    glVertex2d(329+addX,154+addY);
+    glVertex2d(329+addX,167+addY);
+
+    glEnd();
+
+    //////// Top Chairs
+
+    //white
+    glBegin(GL_POLYGON);
+
+    glColor3ub(255,255,255);
+
+    glVertex2d(298+addX,148+addY);
+    glVertex2d(315+addX,138+addY);
+    glVertex2d(331+addX,148+addY);
+    glVertex2d(315+addX,157+addY);
+
+    glEnd();
+
+    //side left
+    glBegin(GL_POLYGON);
+
+    glColor3ub(227,219,207);
+
+    glVertex2d(298+addX,152+addY);
+    glVertex2d(298+addX,148+addY);
+    glVertex2d(315+addX,157+addY);
+    glVertex2d(315+addX,162+addY);
+
+    glEnd();
+
+    //side right
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(315+addX,162+addY);
+    glVertex2d(315+addX,157+addY);
+    glVertex2d(331+addX,148+addY);
+    glVertex2d(331+addX,152+addY);
+
+    glEnd();
+
+    ////legs left
+    //dark
+    glBegin(GL_POLYGON);
+
+    glColor3ub(140,130,115);
+
+    glVertex2d(299+addX,165+addY);
+    glVertex2d(299+addX,153+addY);
+    glVertex2d(303+addX,155+addY);
+    glVertex2d(303+addX,165+addY);
+    glVertex2d(301+addX,167+addY);
+    glVertex2d(300+addX,166+addY);
+
+    glEnd();
+
+    //light
+    glBegin(GL_POLYGON);
+
+    glColor3ub(181,173,161);
+
+    glVertex2d(300+addX,166+addY);
+    glVertex2d(300+addX,153+addY);
+    glVertex2d(301+addX,154+addY);
+    glVertex2d(301+addX,167+addY);
+
+    glEnd();
+
+
+    addX=23;
+    addY=-33;
+
+
+    }
+
+}
+
 /////////////////////////////////////////////////
+
+void display()  {
+    glClear(GL_COLOR_BUFFER_BIT);
+
+        Background();
+        Land();
+        Fondasi();
+        Walls();
+        Fondasi2();
+        SideStairs();
+        Stairs();
+        Balcony();
+        Holes();
+        Windows();
+        Tree();
+        Chairs();
+
+    glFlush();
+}
+
+///////////////////////////////////////////////////
 
 
 int main(void)
@@ -2181,17 +2448,7 @@ int main(void)
 
         ////////////////////////////////////////////////////////////
 
-        Background();
-        Land();
-        Fondasi();
-        Walls();
-        Fondasi2();
-        SideStairs();
-        Stairs();
-        Balcony();
-        Holes();
-        Windows();
-        Tree();
+
         ////////////////////////////////////////////////////////////
 
         glfwSwapBuffers(window);
