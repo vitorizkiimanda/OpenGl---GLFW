@@ -2271,6 +2271,32 @@ void Chairs()
     for(int i=0;i<2;i++)
     {
 
+        //shadow
+
+        glBegin(GL_POLYGON);
+
+        glColor3ub(196,173,140);
+
+        glVertex2d(313+addX,174+addY);
+        glVertex2d(348+addX,195+addY);
+        glVertex2d(364+addX,185+addY);
+        glVertex2d(330+addX,165+addY);
+
+        glEnd();
+
+        glBegin(GL_POLYGON);
+
+        glColor3ub(242,224,199);
+
+        glVertex2d(315+addX,173+addY);
+        glVertex2d(334+addX,184+addY);
+        glVertex2d(345+addX,177+addY);
+        glVertex2d(327+addX,166+addY);
+
+        glEnd();
+
+        //shadow ^^^
+
         ////legs middle
     //dark
     glBegin(GL_POLYGON);
