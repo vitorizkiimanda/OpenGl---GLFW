@@ -3,6 +3,9 @@
 #include <stdio.h>
 #include <math.h>
 
+float DETIK = 0.0;
+float DETIK2 = 0.0;
+
 //ini buat menerima input dari user dan apa yang harus dilakukan
 // esc -> exit
 static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
@@ -21,11 +24,13 @@ void setup_viewport(GLFWwindow* window)
     //ratio = width / (float) height;
     glViewport(0, 0, width, height);
 
+
+
     glClear(GL_COLOR_BUFFER_BIT);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     //glOrtho(-10, 10, -10, 10, 1.f, -1.f); // kiri, kanan, bottom, top, depan, belakang
-    glOrtho(0, 800, 800, 0, 1.f, -1.f); // kiri, kanan, bottom, top, depan, belakang -> ala ala editor
+    glOrtho(0+ (50*DETIK2), 800+ (50*DETIK2), 800+ (50*DETIK2), 0+ (50*DETIK2), 1.f, -1.f); // kiri, kanan, bottom, top, depan, belakang -> ala ala editor
 
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
@@ -56,10 +61,10 @@ void Background(){
 
     glColor3ub(255,255,255);
 
-    glVertex2d(0,0);
-    glVertex2d(800,0);
-    glVertex2d(800,800);
-    glVertex2d(0,800);
+    glVertex2d(-100,-100);
+    glVertex2d(900,-100);
+    glVertex2d(900,900);
+    glVertex2d(-100,900);
 
     glEnd();
 
@@ -962,12 +967,13 @@ void Walls()
     //3 shadow
     glBegin(GL_POLYGON);
 
-    glColor3ub(196,173,140);
+    glColor4ub(196,173,140,255);
 
-    glVertex2d(249,150);
     glVertex2d(211,127);
     glVertex2d(371,32);
+
     glVertex2d(410,55);
+    glVertex2d(249,150);
 
     glEnd();
 
@@ -2610,6 +2616,12 @@ int main(void)
 
     while (!glfwWindowShouldClose(window))//kecepatan FPS dari while ini tergantung komputer masing masing
     {
+
+        //ambil waktu
+        DETIK = glfwGetTime();
+        DETIK2 = sin(DETIK);
+        //ambil waktu
+
         setup_viewport(window);
 
         display();
