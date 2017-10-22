@@ -107,10 +107,15 @@ void background(){
     glBegin(GL_POLYGON);
 
     glColor3ub(100+255*DETIK2,50+251*DETIK2,10+244*DETIK2);
-
     glVertex2d(0,0);
+
+    glColor3ub(125+255*DETIK2,75+251*DETIK2,35+244*DETIK2);
     glVertex2d(800,0);
+
+    glColor3ub(150+255*DETIK2,100+251*DETIK2,60+244*DETIK2);
     glVertex2d(800,800);
+
+    glColor3ub(175+255*DETIK2,125+251*DETIK2,85+244*DETIK2);
     glVertex2d(0,800);
 
     glEnd();
@@ -118,7 +123,7 @@ void background(){
     //Decorative 1
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78,50+255*DETIK2);
 
     glVertex2d(58,135);
     glVertex2d(211,0);
@@ -129,7 +134,7 @@ void background(){
     //Decorative 2
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78, 75+255*DETIK2);
 
     glVertex2d(116,240);
     glVertex2d(0,344);
@@ -140,7 +145,7 @@ void background(){
     //Decorative 3
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78, 90+255*DETIK2);
 
     glVertex2d(145,675);
     glVertex2d(0,796);
@@ -152,7 +157,7 @@ void background(){
     //Decorative 4
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78,40+255*DETIK2);
 
     glVertex2d(470,705);
     glVertex2d(363,800);
@@ -163,7 +168,7 @@ void background(){
     //Decorative 5
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78,60+255*DETIK2);
 
     glVertex2d(609,792);
     glVertex2d(800,624);
@@ -174,7 +179,7 @@ void background(){
     //Decorative 6
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78,80+255*DETIK2);
 
     glVertex2d(667,272);
     glVertex2d(800,155);
@@ -185,7 +190,7 @@ void background(){
     //Decorative 7
     glBegin(GL_POLYGON);
 
-    glColor3ub(255,190,78);
+    glColor4ub(255,190,78,90+255*DETIK2);
 
     glVertex2d(617,93);
     glVertex2d(722,0);
@@ -1268,7 +1273,6 @@ int main(void)
     glfwSwapInterval(1);
     glfwSetKeyCallback(window, key_callback);
 
-    /*
     //anti alias
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -1276,7 +1280,7 @@ int main(void)
     glEnable(GL_POLYGON_SMOOTH);
     glEnable(GL_POINT_SMOOTH);
     //anti alias
-    */
+
     while (!glfwWindowShouldClose(window))//kecepatan FPS dari while ini tergantung komputer masing masing
     {
 
