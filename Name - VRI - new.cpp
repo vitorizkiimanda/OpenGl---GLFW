@@ -207,9 +207,9 @@ void hurufV(){
     glColor3ub(247,191,18);
     //glColor4f(1,1,1,0);
 
-    glVertex2d(104,114);
-    glVertex2d(142,114);
-    glVertex2d(117,146);
+    glVertex2d(104 + (5*DETIK2),114 - (5*DETIK2));
+    glVertex2d(142 + (5*DETIK2),114- (5*DETIK2));
+    glVertex2d(117 + (5*DETIK2),146- (5*DETIK2));
 
     glEnd();
 
@@ -218,11 +218,11 @@ void hurufV(){
 
     glColor3ub(29,205,195);
 
-    glVertex2d(123,160);
-    glVertex2d(158,114);
-    glVertex2d(173,114);
-    glVertex2d(193,165);
-    glVertex2d(149,223);
+    glVertex2d(123 ,160 );
+    glVertex2d(158 ,114 );
+    glVertex2d(173 ,114 );
+    glVertex2d(193 ,165 );
+    glVertex2d(149 ,223 );
 
     glEnd();
 
@@ -231,10 +231,10 @@ void hurufV(){
 
     glColor3ub(0,166,166);
 
-    glVertex2d(151,225);
-    glVertex2d(195,168);
-    glVertex2d(199,178);
-    glVertex2d(155,235);
+    glVertex2d(151 + (5*DETIK2),225 - (5*DETIK2));
+    glVertex2d(195 + (5*DETIK2),168 - (5*DETIK2));
+    glVertex2d(199 + (5*DETIK2),178 - (5*DETIK2));
+    glVertex2d(155 + (5*DETIK2),235 - (5*DETIK2));
 
     glEnd();
 
@@ -243,10 +243,10 @@ void hurufV(){
 
     glColor3ub(4,66,87);
 
-    glVertex2d(166,225);
-    glVertex2d(210,168);
-    glVertex2d(214,178);
-    glVertex2d(170,235);
+    glVertex2d(166 - (5*DETIK2),225 + (5*DETIK2));
+    glVertex2d(210 - (5*DETIK2),168 + (5*DETIK2));
+    glVertex2d(214 - (5*DETIK2),178 + (5*DETIK2));
+    glVertex2d(170 - (5*DETIK2),235 + (5*DETIK2));
 
     glEnd();
 
@@ -255,10 +255,10 @@ void hurufV(){
 
     glColor3ub(4,66,87);
 
-    glVertex2d(161,251);
-    glVertex2d(205,194);
-    glVertex2d(209,204);
-    glVertex2d(166,261);
+    glVertex2d(161 + (5*DETIK2),251 - (5*DETIK2));
+    glVertex2d(205 + (5*DETIK2),194 - (5*DETIK2));
+    glVertex2d(209 + (5*DETIK2),204 - (5*DETIK2));
+    glVertex2d(166 + (5*DETIK2),261 - (5*DETIK2));
 
     glEnd();
 
@@ -267,10 +267,10 @@ void hurufV(){
 
     glColor3ub(242,49,6);
 
-    glVertex2d(167,264);
-    glVertex2d(210,207);
-    glVertex2d(214,217);
-    glVertex2d(171,274);
+    glVertex2d(167 - (5*DETIK2),264 + (5*DETIK2));
+    glVertex2d(210 - (5*DETIK2),207 + (5*DETIK2));
+    glVertex2d(214 - (5*DETIK2),217 + (5*DETIK2));
+    glVertex2d(171 - (5*DETIK2),274 + (5*DETIK2));
 
     glEnd();
 
@@ -302,9 +302,9 @@ void hurufV(){
 
     glColor3ub(120,0,27);
 
-    glVertex2d(226,360);
-    glVertex2d(296,269);
-    glVertex2d(257,360);
+    glVertex2d(226 + (5*DETIK2),360 - (5*DETIK2));
+    glVertex2d(296 + (5*DETIK2),269 - (5*DETIK2));
+    glVertex2d(257 + (5*DETIK2),360 - (5*DETIK2));
 
     glEnd();
 
@@ -328,10 +328,10 @@ void hurufI() {
 
     glColor3ub(0,166,166);
 
-    glVertex2d(516,157);
-    glVertex2d(551,111);
-    glVertex2d(563,111);
-    glVertex2d(516,173);
+    glVertex2d(516 + (5*DETIK2),157 - (5*DETIK2));
+    glVertex2d(551 + (5*DETIK2),111 - (5*DETIK2));
+    glVertex2d(563 + (5*DETIK2),111 - (5*DETIK2));
+    glVertex2d(516 + (5*DETIK2),173 - (5*DETIK2));
 
     glEnd();
 
@@ -340,10 +340,10 @@ void hurufI() {
 
     glColor3ub(4,66,87);
 
-    glVertex2d(526,164);
-    glVertex2d(576,98);
-    glVertex2d(588,98);
-    glVertex2d(526,179);
+    glVertex2d(526 - (5*DETIK2),164 + (5*DETIK2));
+    glVertex2d(576 - (5*DETIK2),98 + (5*DETIK2));
+    glVertex2d(588 - (5*DETIK2),98 + (5*DETIK2));
+    glVertex2d(526 - (5*DETIK2),179 + (5*DETIK2));
 
     glEnd();
 
@@ -352,10 +352,10 @@ void hurufI() {
 
     glColor3ub(4,66,87);
 
-    glVertex2d(516,197);
-    glVertex2d(580,113);
-    glVertex2d(580,129);
-    glVertex2d(516,212);
+    glVertex2d(516 + (5*DETIK2),197 - (5*DETIK2));
+    glVertex2d(580 + (5*DETIK2),113 - (5*DETIK2));
+    glVertex2d(580 + (5*DETIK2),129 - (5*DETIK2));
+    glVertex2d(516 + (5*DETIK2),212 - (5*DETIK2));
 
     glEnd();
 
@@ -364,10 +364,10 @@ void hurufI() {
 
     glColor3ub(242,49,6);
 
-    glVertex2d(516,217);
-    glVertex2d(580,133);
-    glVertex2d(580,149);
-    glVertex2d(516,232);
+    glVertex2d(516 - (5*DETIK2),217 + (5*DETIK2));
+    glVertex2d(580 - (5*DETIK2),133 + (5*DETIK2));
+    glVertex2d(580 - (5*DETIK2),149 + (5*DETIK2));
+    glVertex2d(516 - (5*DETIK2),232 + (5*DETIK2));
 
     glEnd();
 
@@ -389,9 +389,9 @@ void hurufI() {
 
     glColor3ub(120,0,27);
 
-    glVertex2d(542,357);
-    glVertex2d(580,306);
-    glVertex2d(580,357);
+    glVertex2d(542 + (5*DETIK2),357 - (5*DETIK2));
+    glVertex2d(580 + (5*DETIK2),306 - (5*DETIK2));
+    glVertex2d(580 + (5*DETIK2),357 - (5*DETIK2));
 
     glEnd();
 
@@ -416,19 +416,19 @@ void hurufT(){
 
     glColor3ub(0,166,166);
 
-    glVertex2d(194,481);
-    glVertex2d(235,427);
-    glVertex2d(247,427);
-    glVertex2d(201,481);
+    glVertex2d(194 + (5*DETIK2),481 - (5*DETIK2));
+    glVertex2d(235 + (5*DETIK2),427 - (5*DETIK2));
+    glVertex2d(247 + (5*DETIK2),427 - (5*DETIK2));
+    glVertex2d(201 + (5*DETIK2),481 - (5*DETIK2));
 
     glEnd();
 
 
     glBegin(GL_POLYGON);
 
-    glVertex2d(201,481);
-    glVertex2d(247,427);
-    glVertex2d(201,488);
+    glVertex2d(201 + (5*DETIK2),481 - (5*DETIK2));
+    glVertex2d(247 + (5*DETIK2),427 - (5*DETIK2));
+    glVertex2d(201 + (5*DETIK2),488 - (5*DETIK2));
 
     glEnd();
 
@@ -437,10 +437,10 @@ void hurufT(){
 
     glColor3ub(4,66,87);
 
-    glVertex2d(211,480);
-    glVertex2d(260,415);
-    glVertex2d(272,415);
-    glVertex2d(211,495);
+    glVertex2d(211 - (5*DETIK2),480 + (5*DETIK2));
+    glVertex2d(260 - (5*DETIK2),415 + (5*DETIK2));
+    glVertex2d(272 - (5*DETIK2),415 + (5*DETIK2));
+    glVertex2d(211 - (5*DETIK2),495 + (5*DETIK2));
 
     glEnd();
 
@@ -449,10 +449,10 @@ void hurufT(){
 
     glColor3ub(4,66,87);
 
-    glVertex2d(201,513);
-    glVertex2d(266,427);
-    glVertex2d(278,427);
-    glVertex2d(201,528);
+    glVertex2d(201 + (5*DETIK2),513 - (5*DETIK2));
+    glVertex2d(266 + (5*DETIK2),427 - (5*DETIK2));
+    glVertex2d(278 + (5*DETIK2),427 - (5*DETIK2));
+    glVertex2d(201 + (5*DETIK2),528 - (5*DETIK2));
 
     glEnd();
 
@@ -461,10 +461,10 @@ void hurufT(){
 
     glColor3ub(242,49,6);
 
-    glVertex2d(201,532);
-    glVertex2d(281,427);
-    glVertex2d(293,427);
-    glVertex2d(201,548);
+    glVertex2d(201 - (5*DETIK2),532 + (5*DETIK2));
+    glVertex2d(281 - (5*DETIK2),427 + (5*DETIK2));
+    glVertex2d(293 - (5*DETIK2),427 + (5*DETIK2));
+    glVertex2d(201 - (5*DETIK2),548 + (5*DETIK2));
 
     glEnd();
 
@@ -496,9 +496,9 @@ void hurufT(){
 
     glColor3ub(120,0,27);
 
-    glVertex2d(226,672);
-    glVertex2d(264,622);
-    glVertex2d(264,672);
+    glVertex2d(226 + (5*DETIK2),672 - (5*DETIK2));
+    glVertex2d(264 + (5*DETIK2),622 - (5*DETIK2));
+    glVertex2d(264 + (5*DETIK2),672 - (5*DETIK2));
 
     glEnd();
 }
@@ -580,61 +580,61 @@ void hurufO(){
 
     glColor3ub(0,166,166);
 
-    glVertex2d(426,602);
-    glVertex2d(422,592);
-    glVertex2d(479,532);
-    glVertex2d(426,602);
-    glVertex2d(480,529);
-    glVertex2d(426,602);
-    glVertex2d(481,526);
-    glVertex2d(426,602);
-    glVertex2d(482,521);
-    glVertex2d(426,602);
-    glVertex2d(484,518);
-    glVertex2d(426,602);
-    glVertex2d(486,514);
-    glVertex2d(426,602);
-    glVertex2d(488,510);
-    glVertex2d(426,602);
-    glVertex2d(490,507);
-    glVertex2d(426,602);
-    glVertex2d(493,503);
-    glVertex2d(490,502);
-    glVertex2d(426,602);
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(422 + (5*DETIK2),592 - (5*DETIK2));
+    glVertex2d(479 + (5*DETIK2),532 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(480 + (5*DETIK2),529 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(481 + (5*DETIK2),526 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(482 + (5*DETIK2),521 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(484 + (5*DETIK2),518 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(486 + (5*DETIK2),514 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(488 + (5*DETIK2),510 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(490 + (5*DETIK2),507 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(493 + (5*DETIK2),503 - (5*DETIK2));
+    glVertex2d(490 + (5*DETIK2),502 - (5*DETIK2));
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
 
     glEnd();
 
     glBegin(GL_POLYGON);
 
-    glVertex2d(426,602);
-    glVertex2d(422,592);
-    glVertex2d(490,502);
+    glVertex2d(426 + (5*DETIK2),602 - (5*DETIK2));
+    glVertex2d(422 + (5*DETIK2),592 - (5*DETIK2));
+    glVertex2d(490 + (5*DETIK2),502 - (5*DETIK2));
 
     glEnd();
 
     glBegin(GL_TRIANGLE_STRIP);
 
-    glVertex2d(493,503);
-    glVertex2d(490,502);
-    glVertex2d(495,500);
-    glVertex2d(518,465);
-    glVertex2d(498,497);
-    glVertex2d(518,465);
-    glVertex2d(501,495);
-    glVertex2d(518,465);
-    glVertex2d(504,492);
-    glVertex2d(518,465);
-    glVertex2d(507,490);
-    glVertex2d(518,465);
-    glVertex2d(510,487);
-    glVertex2d(518,465);
-    glVertex2d(513,486);
-    glVertex2d(518,465);
-    glVertex2d(516,484);
-    glVertex2d(518,465);
-    glVertex2d(567,416);
-    glVertex2d(518,465);
-    glVertex2d(556,415);
+    glVertex2d(493 + (5*DETIK2),503 - (5*DETIK2));
+    glVertex2d(490 + (5*DETIK2),502 - (5*DETIK2));
+    glVertex2d(495 + (5*DETIK2),500 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(498 + (5*DETIK2),497 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(501 + (5*DETIK2),495 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(504 + (5*DETIK2),492 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(507 + (5*DETIK2),490 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(510 + (5*DETIK2),487 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(513 + (5*DETIK2),486 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(516 + (5*DETIK2),484 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(567 + (5*DETIK2),416 - (5*DETIK2));
+    glVertex2d(518 + (5*DETIK2),465 - (5*DETIK2));
+    glVertex2d(556 + (5*DETIK2),415 - (5*DETIK2));
 
     glEnd();
 
@@ -643,40 +643,40 @@ void hurufO(){
 
     glColor3ub(4,66,87);
 
-    glVertex2d(442,601);
-    glVertex2d(437,592);
-    glVertex2d(489,539);
-    glVertex2d(489,524);
+    glVertex2d(442 - (5*DETIK2),601 + (5*DETIK2));
+    glVertex2d(437 - (5*DETIK2),592 + (5*DETIK2));
+    glVertex2d(489 - (5*DETIK2),539 + (5*DETIK2));
+    glVertex2d(489 - (5*DETIK2),524 + (5*DETIK2));
 
 
     glEnd();
     //top
     glBegin(GL_POLYGON);
 
-    glVertex2d(530,469);
-    glVertex2d(580,404);
-    glVertex2d(590,406);
-    glVertex2d(546,465);
+    glVertex2d(530 - (5*DETIK2),469 + (5*DETIK2));
+    glVertex2d(580 - (5*DETIK2),404 + (5*DETIK2));
+    glVertex2d(590 - (5*DETIK2),406 + (5*DETIK2));
+    glVertex2d(546 - (5*DETIK2),465 + (5*DETIK2));
 
     glEnd();
 
     //stripes green old 2 bottom
     glBegin(GL_POLYGON);
 
-    glVertex2d(439,625);
-    glVertex2d(433,616);
-    glVertex2d(480,555);
-    glVertex2d(483,567);
+    glVertex2d(439 + (5*DETIK2),625 - (5*DETIK2));
+    glVertex2d(433 + (5*DETIK2),616 - (5*DETIK2));
+    glVertex2d(480 + (5*DETIK2),555 - (5*DETIK2));
+    glVertex2d(483 + (5*DETIK2),567 - (5*DETIK2));
 
     glEnd();
 
     //top
     glBegin(GL_POLYGON);
 
-    glVertex2d(540,477);
-    glVertex2d(584,419);
-    glVertex2d(593,422);
-    glVertex2d(552,477);
+    glVertex2d(540 + (5*DETIK2),477 - (5*DETIK2));
+    glVertex2d(584 + (5*DETIK2),419 - (5*DETIK2));
+    glVertex2d(593 + (5*DETIK2),422 - (5*DETIK2));
+    glVertex2d(552 + (5*DETIK2),477 - (5*DETIK2));
 
     glEnd();
 
@@ -685,20 +685,20 @@ void hurufO(){
 
     glColor3ub(242,49,6);
 
-    glVertex2d(447,634);
-    glVertex2d(441,627);
-    glVertex2d(484,570);
-    glVertex2d(489,579);
+    glVertex2d(447 - (5*DETIK2),634 + (5*DETIK2));
+    glVertex2d(441 - (5*DETIK2),627 + (5*DETIK2));
+    glVertex2d(484 - (5*DETIK2),570 + (5*DETIK2));
+    glVertex2d(489 - (5*DETIK2),579 + (5*DETIK2));
 
     glEnd();
 
     //top
     glBegin(GL_POLYGON);
 
-    glVertex2d(555,477);
-    glVertex2d(596,423);
-    glVertex2d(605,427);
-    glVertex2d(565,479);
+    glVertex2d(555 - (5*DETIK2),477 + (5*DETIK2));
+    glVertex2d(596 - (5*DETIK2),423 + (5*DETIK2));
+    glVertex2d(605 - (5*DETIK2),427 + (5*DETIK2));
+    glVertex2d(565 - (5*DETIK2),479 + (5*DETIK2));
 
     glEnd();
 
@@ -1132,104 +1132,104 @@ void hurufO(){
     glColor3ub(255,150,0);
 
 
-    glVertex2d(611,662);
-    glVertex2d(651,620);
-    glVertex2d(680,571);
+    glVertex2d(611 + (5*DETIK2),662 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(680 + (5*DETIK2),571 - (5*DETIK2));
 
-    glVertex2d(611,662);
-    glVertex2d(651,620);
-    glVertex2d(612,661);
-    glVertex2d(651,620);
-    glVertex2d(614,660);
-    glVertex2d(651,620);
-    glVertex2d(615,660);
-    glVertex2d(651,620);
-    glVertex2d(616,659);
-    glVertex2d(651,620);
-    glVertex2d(618,658);
-    glVertex2d(651,620);
-    glVertex2d(619,657);
-    glVertex2d(651,620);
-    glVertex2d(621,656);
-    glVertex2d(651,620);
-    glVertex2d(624,655);
-    glVertex2d(651,620);
-    glVertex2d(626,653);
-    glVertex2d(651,620);
-    glVertex2d(627,652);
-    glVertex2d(651,620);
-    glVertex2d(629,651);
-    glVertex2d(651,620);
-    glVertex2d(630,650);
-    glVertex2d(651,620);
-    glVertex2d(631,649);
-    glVertex2d(651,620);
-    glVertex2d(633,648);
-    glVertex2d(651,620);
-    glVertex2d(634,647);
-    glVertex2d(651,620);
-    glVertex2d(635,646);
-    glVertex2d(651,620);
-    glVertex2d(637,645);
-    glVertex2d(651,620);
-    glVertex2d(638,644);
-    glVertex2d(651,620);
-    glVertex2d(639,643);
-    glVertex2d(651,620);
-    glVertex2d(641,642);
-    glVertex2d(651,620);
-    glVertex2d(642,640);
-    glVertex2d(651,620);
-    glVertex2d(643,639);
+    glVertex2d(611 + (5*DETIK2),662 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(612 + (5*DETIK2),661 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(614 + (5*DETIK2),660 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(615 + (5*DETIK2),660 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(616 + (5*DETIK2),659 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(618 + (5*DETIK2),658 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(619 + (5*DETIK2),657 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(621 + (5*DETIK2),656 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(624 + (5*DETIK2),655 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(626 + (5*DETIK2),653 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(627 + (5*DETIK2),652 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(629 + (5*DETIK2),651 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(630 + (5*DETIK2),650 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(631 + (5*DETIK2),649 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(633 + (5*DETIK2),648 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(634 + (5*DETIK2),647 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(635 + (5*DETIK2),646 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(637 + (5*DETIK2),645 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(638 + (5*DETIK2),644 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(639 + (5*DETIK2),643 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(641 + (5*DETIK2),642 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(642 + (5*DETIK2),640 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(643 + (5*DETIK2),639 - (5*DETIK2));
 
-    glVertex2d(643,639);
-    glVertex2d(651,620);
-    glVertex2d(666,609);
+    glVertex2d(643 + (5*DETIK2),639 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(666 + (5*DETIK2),609 - (5*DETIK2));
 
 
-    glVertex2d(666,609);
-    glVertex2d(651,620);
-    glVertex2d(667,608);
-    glVertex2d(651,620);
-    glVertex2d(668,606);
-    glVertex2d(651,620);
-    glVertex2d(669,605);
-    glVertex2d(651,620);
-    glVertex2d(669,603);
-    glVertex2d(651,620);
-    glVertex2d(670,601);
-    glVertex2d(651,620);
-    glVertex2d(671,599);
-    glVertex2d(651,620);
-    glVertex2d(672,596);
-    glVertex2d(651,620);
-    glVertex2d(673,594);
-    glVertex2d(651,620);
-    glVertex2d(674,592);
-    glVertex2d(651,620);
-    glVertex2d(675,590);
-    glVertex2d(651,620);
-    glVertex2d(675,588);
-    glVertex2d(651,620);
-    glVertex2d(676,586);
-    glVertex2d(651,620);
-    glVertex2d(677,585);
-    glVertex2d(651,620);
-    glVertex2d(677,583);
-    glVertex2d(651,620);
-    glVertex2d(678,581);
-    glVertex2d(651,620);
-    glVertex2d(678,579);
-    glVertex2d(651,620);
-    glVertex2d(678,578);
-    glVertex2d(651,620);
-    glVertex2d(679,576);
-    glVertex2d(651,620);
-    glVertex2d(679,575);
-    glVertex2d(651,620);
-    glVertex2d(679,573);
-    glVertex2d(651,620);
-    glVertex2d(680,571);
+    glVertex2d(666 + (5*DETIK2),609 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(667 + (5*DETIK2),608 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(668 + (5*DETIK2),606 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(669 + (5*DETIK2),605 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(669 + (5*DETIK2),603 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(670 + (5*DETIK2),601 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(671 + (5*DETIK2),599 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(672 + (5*DETIK2),596 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(673 + (5*DETIK2),594 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(674 + (5*DETIK2),592 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(675 + (5*DETIK2),590 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(675 + (5*DETIK2),588 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(676 + (5*DETIK2),586 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(677 + (5*DETIK2),585 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(677 + (5*DETIK2),583 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(678 + (5*DETIK2),581 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(678 + (5*DETIK2),579 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(678 + (5*DETIK2),578 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(679 + (5*DETIK2),576 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(679 + (5*DETIK2),575 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(679 + (5*DETIK2),573 - (5*DETIK2));
+    glVertex2d(651 + (5*DETIK2),620 - (5*DETIK2));
+    glVertex2d(680 + (5*DETIK2),571 - (5*DETIK2));
 
     glEnd();
 
