@@ -2425,6 +2425,138 @@ void Chairs()
 
 }
 
+
+void Table(double x,double y,double r)
+{
+    double cons=3.14/50.0;
+    double posX=x/10.0, posY=y/10.0;
+    double radius2=r/10.0;
+    glBegin(GL_TRIANGLE_STRIP);
+        glColor3ub(255,255,255);
+        for(int i=-50;i<=50;i++)
+        {
+            glVertex2d(posX*10,posY*10);
+            double px=sin(i*cons)*radius2+posX;
+            double py=cos(i*cons)*radius2+posY;
+            glVertex2f(px*10,py*10);
+        }
+    glEnd();
+}
+
+void Circle(double x,double y,double r)
+{
+    double cons=3.14/50.0;
+    double posX=x/10.0, posY=y/10.0;
+    double radius2=r/10.0;
+    glBegin(GL_TRIANGLE_STRIP);
+        for(int i=-50;i<=50;i++)
+        {
+            glVertex2d(posX*10,posY*10);
+            double px=sin(i*cons)*radius2+posX;
+            double py=cos(i*cons)*radius2+posY;
+            glVertex2f(px*10,py*10);
+        }
+    glEnd();
+}
+
+void Plants()
+{
+    int moveX=0 , moveY=0;
+    for(int i=0;i<2;i++)
+    {
+
+    //tanah
+    glBegin(GL_POLYGON);
+        glColor3ub(92,77,74);
+        glVertex2d(326 + moveX,44 + moveY);
+        glVertex2d(339 + moveX,51 + moveY);
+        glVertex2d(384 + moveX,25 + moveY);
+        glVertex2d(371 + moveX,17 + moveY);
+    glEnd();
+
+    //pot gelap
+    glBegin(GL_POLYGON);
+        glColor3ub(84,107,130);
+        glVertex2d(326 + moveX,44 + moveY);
+        glVertex2d(339 + moveX,51 + moveY);
+        glVertex2d(339 + moveX,66 + moveY);
+        glVertex2d(326 + moveX,59 + moveY);
+    glEnd();
+
+    //pot terang
+    glBegin(GL_POLYGON);
+        glColor3ub(128,150,176);
+        glVertex2d(339 + moveX,51 + moveY);
+        glVertex2d(339 + moveX,66 + moveY);
+        glVertex2d(384 + moveX,40 + moveY);
+        glVertex2d(384 + moveX,25 + moveY);
+    glEnd();
+
+
+    glColor3ub(79,148,69);
+    Circle(374.56 + moveX,19.36  + moveY,8.36);
+    glColor3ub(110,189,97);
+    Circle(365.59 + moveX,27.03 + moveY,6.16);
+    glColor3ub(143,219,74);
+    Circle(349.8 + moveX,30.21 + moveY,12.37);
+    glColor3ub(125,191,64);
+    Circle(338.24 + moveX,42.04 + moveY,6.22);
+
+    moveX=-128;
+    moveY=75;
+    }
+
+    //tambalan
+    glBegin(GL_POLYGON);
+        glColor3ub(250,242,227);
+        glVertex2d(249,150);
+        glVertex2d(198,119 );
+        glVertex2d(172,119);
+        glVertex2d(243,161);
+    glEnd();
+
+
+    ////tanaman bawah
+    //tanah
+    glBegin(GL_POLYGON);
+        glColor3ub(92,77,74);
+        glVertex2d(352,579);
+        glVertex2d(307,553);
+        glVertex2d(320,545 );
+        glVertex2d(365,572);
+    glEnd();
+
+    //pot gelap
+    glBegin(GL_POLYGON);
+        glColor3ub(84,107,130);
+        glVertex2d(352,579);
+        glVertex2d(352,594);
+        glVertex2d(365,587);
+        glVertex2d(365,572);
+    glEnd();
+
+    //pot terang
+    glBegin(GL_POLYGON);
+        glColor3ub(128,150,176);
+        glVertex2d(352,579);
+        glVertex2d(352,594);
+        glVertex2d(307,568);
+        glVertex2d(307,553 );
+    glEnd();
+
+
+    glColor3ub(79,148,69);
+    Circle(317.38,547.52,8.36);
+    glColor3ub(110,189,97);
+    Circle(326.35,555.05 ,6.16);
+    glColor3ub(143,219,74);
+    Circle(342.13,558.16,12.37);
+    glColor3ub(125,191,64);
+    Circle(353.32,570.03,6.22);
+
+
+}
+
 /////////////////////////////////////////////////
 
 void display()  {
@@ -2442,6 +2574,8 @@ void display()  {
         Windows();
         Tree();
         Chairs();
+        //Table();
+        Plants();
 
     glFlush();
 }
@@ -2465,6 +2599,14 @@ int main(void)
     glfwMakeContextCurrent(window);
     glfwSwapInterval(1);
     glfwSetKeyCallback(window, key_callback);
+
+    //anti alias
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_LINE_SMOOTH);
+    glEnable(GL_POLYGON_SMOOTH);
+    glEnable(GL_POINT_SMOOTH);
+    //anti alias
 
     while (!glfwWindowShouldClose(window))//kecepatan FPS dari while ini tergantung komputer masing masing
     {
